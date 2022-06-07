@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .descuentos {
+    background-color: #1CD1B0;
+    padding: 10px;
+}
+
+header .titulo {
+    background-color: #00669F;
+    margin: 0;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.batman1 {
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 600px;
+}
+
+.batman1 .fondo-batman1 {
+    position: absolute;
+}
+
+.batman1 .cara-batman1 {
+    position: relative;
+    border-radius: 50%;
+    top: 100px;
+    left: 85px;
+}
+
+.batman1 .corazon {
+    position: relative;
+    left: -100px;
+    bottom: 70px;
+}
+
+.batman1 h2 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.batman1 p {
+    position: relative;
+    top: 100px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.batman1 button {
+    color: white;
+    background-color: #00669F;
+    position: relative;
+    top: 140px;
+    left: 100px;
+    padding: 20px;
+    border: none
+}
+
+.harley {
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 600px;
+}
+
+.harley .fondo-harley {
+    position: absolute;
+}
+
+.harley .cara-harley {
+    position: relative;
+    border-radius: 50%;
+    top: 100px;
+    left: 85px;   
+}
+
+.harley .corazon1 {
+    position: relative;
+    left: -100px;
+    bottom: 70px;
+}
+
+.harley h2 {
+    position:relative;
+    top: 100px;
+    text-align: center;
+}
+
+.harley p{
+    padding: 20px;
+    position: relative;
+    top: 100px;
+    text-align:justify;
+}
+
+.harley button {
+    color: white;
+    position: relative;
+    top: 140px;
+    left: 100px;
+    background-color: #00669F;
+    padding: 20px;
+    border: none
+}
+
+.batman2 {
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 600px;
+}
+
+.batman2 .fondo-batman2 {
+    position: absolute;
+}
+
+.batman2 .cara-batman2 {
+    position: relative;
+    border-radius: 50%;
+    top: 100px;
+    left: 85px;
+}
+
+.batman2 .corazon2{
+    position: relative;
+    left: -100px;
+    bottom: 70px;
+}
+
+.batman2 h2 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.batman2 p {
+    position: relative;
+    top: 100px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.batman2 button {
+    color: white;
+    background-color: #00669F;
+    position: relative;
+    top: 140px;
+    left: 100px;
+    padding: 20px;
+    border: none;
+}
+
+
+footer {
+    background-color: #00669F;
+    margin: 150px 0px 0px 0px;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+    padding: 25px;
+}
+
+button:hover {
+    background-color: #06486e;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
