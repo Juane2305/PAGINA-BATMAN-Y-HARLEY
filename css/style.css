@@ -181,3 +181,18 @@ button a {
     color: white;
 }
 
+@media (max-width: 768px) {
+    header .titulo {
+        text-align: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .cards>div {
+        margin-bottom: 10%;
+    }
+}
